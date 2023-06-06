@@ -16,6 +16,7 @@
 		CFF09B192A2F39AD003B261B /* MyBestFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF09B182A2F39AD003B261B /* MyBestFriendsTests.swift */; };
 		CFF09B232A2F39AD003B261B /* MyBestFriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF09B222A2F39AD003B261B /* MyBestFriendsUITests.swift */; };
 		CFF09B252A2F39AD003B261B /* MyBestFriendsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF09B242A2F39AD003B261B /* MyBestFriendsUITestsLaunchTests.swift */; };
+		CFF09B362A2F3F51003B261B /* DiscussionVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF09B352A2F3F51003B261B /* DiscussionVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CFF09B1E2A2F39AD003B261B /* MyBestFriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBestFriendsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF09B222A2F39AD003B261B /* MyBestFriendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBestFriendsUITests.swift; sourceTree = "<group>"; };
 		CFF09B242A2F39AD003B261B /* MyBestFriendsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBestFriendsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFF09B352A2F3F51003B261B /* DiscussionVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscussionVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,11 @@
 		CFF09B002A2F39AC003B261B /* MyBestFriends */ = {
 			isa = PBXGroup;
 			children = (
-				CFF09B012A2F39AC003B261B /* MyBestFriendsApp.swift */,
-				CFF09B032A2F39AC003B261B /* ContentView.swift */,
-				CFF09B052A2F39AD003B261B /* Assets.xcassets */,
-				CFF09B0A2A2F39AD003B261B /* Persistence.swift */,
+				CFF09B342A2F3A13003B261B /* Supporting Files */,
+				CFF09B312A2F39BC003B261B /* Model */,
+				CFF09B322A2F39CF003B261B /* View */,
+				CFF09B332A2F39E4003B261B /* ViewModel */,
 				CFF09B0F2A2F39AD003B261B /* Info.plist */,
-				CFF09B0C2A2F39AD003B261B /* MyBestFriends.xcdatamodeld */,
 				CFF09B072A2F39AD003B261B /* Preview Content */,
 			);
 			path = MyBestFriends;
@@ -133,6 +134,40 @@
 				CFF09B242A2F39AD003B261B /* MyBestFriendsUITestsLaunchTests.swift */,
 			);
 			path = MyBestFriendsUITests;
+			sourceTree = "<group>";
+		};
+		CFF09B312A2F39BC003B261B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFF09B0A2A2F39AD003B261B /* Persistence.swift */,
+				CFF09B0C2A2F39AD003B261B /* MyBestFriends.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFF09B322A2F39CF003B261B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFF09B032A2F39AC003B261B /* ContentView.swift */,
+				CFF09B352A2F3F51003B261B /* DiscussionVIew.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFF09B332A2F39E4003B261B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CFF09B342A2F3A13003B261B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFF09B012A2F39AC003B261B /* MyBestFriendsApp.swift */,
+				CFF09B052A2F39AD003B261B /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +304,7 @@
 				CFF09B0E2A2F39AD003B261B /* MyBestFriends.xcdatamodeld in Sources */,
 				CFF09B042A2F39AC003B261B /* ContentView.swift in Sources */,
 				CFF09B022A2F39AC003B261B /* MyBestFriendsApp.swift in Sources */,
+				CFF09B362A2F3F51003B261B /* DiscussionVIew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
